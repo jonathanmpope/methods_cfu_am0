@@ -23,6 +23,6 @@
 
 "Hello World".length
 #This method does the exact same thing as .length and will return the character length of the object in an integer.
-# The return value is 11. 
+# The return value is 11.
 
 "Hello World".size
