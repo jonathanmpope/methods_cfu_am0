@@ -1,19 +1,28 @@
 # Defining Our Own Methods
 # 1: Write a method named greeting that prints out a general greeting to someone
+def greeting
+  p "Hi, it's nice to meet you!"
+end
 
+greeting
 # What is the return value of your method?
 # How many arguments did you pass your method?
 
-
-
+#The return value is nil because we are only printing the welcome string.
+# There are no arguments.
 
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
+def custom_greeting (name)
+  p "Hi #{name}, it's nice to meet you!"
+end
 
-
+custom_greeting("Bob")
 # What is the return value of your method?
+#Still nill
 # How many arguments did you pass your method?
+#One argument (name)
 # What data type was your argument(s)?
-
+#String
 
 
 
@@ -35,4 +44,3 @@
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
-
