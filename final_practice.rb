@@ -25,22 +25,31 @@ custom_greeting("Bob")
 #String
 
 
-
 #3: Write a method named square that takes in one number, and returns the square of that number
+def square (num)
+  return num * num
+end
 
-
+square(4)
 
 # What is the return value of your method?
+#16
 # How many arguments did you pass your method?
+#one (num)
 # What data type was your argument(s)?
-
-
-
+#number
 
 #4: Write a method named full name that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
+def full_name (first, middle, last)
+  p "#{first} #{middle} #{last}"
+end
 
+full_name("Jonathan", "Marshall", "Pope")
 
 
 # What is the return value of your method?
+#nill, because it's still just a print statement
 # How many arguments did you pass your method?
+#three (all strings)
 # What data type was your argument(s)?
+#strings
